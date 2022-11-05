@@ -5,14 +5,14 @@ import { UserManagement } from "../components/pages/UserManagement";
 export const HomeRouter = [
     {
         path: '',
-        children: <Home />
+        element: <Home />
     },
     {
         path: 'setting',
-        children: <Setting />
+        element: <Setting />
     },
     {
         path: 'user_management',
-        children: <UserManagement />
+        element: <UserManagement />
     },
 ]
