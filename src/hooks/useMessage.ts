@@ -18,7 +18,6 @@ export const useMessage = () => {
             isClosable: true,
 
         })
-
     }, [toast])
     return { showMessage }
 }
